@@ -23,7 +23,7 @@ const ProjectCard = ({ id, image, title, name, avatarUrl, userId }: Props) => {
     );
   }, []);
   return (
-    <div className="flexCenter flex-col rounded-2xl drop-shadow-card">
+    <div className="flexCenter mr-1 flex-col rounded-2xl drop-shadow-card">
       <Link
         href={`/project/${id}`}
         className="flexCenter group relative w-full h-full"
